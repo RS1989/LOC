@@ -1,0 +1,26 @@
+﻿using NUnit.Framework;
+
+namespace LOC.UnitTEsts
+{
+    public class Tests
+    {
+        //Comment 1
+        /*Comment2*/
+        [SetUp]
+        public void Setup()
+        {//Comment3
+        }
+
+        [Test]
+        public void Test1()
+        {
+            /*Comment4*/ 
+            Assert.Pass();
+            /*Comment5*/var s =string.Empty;
+            var somecode = string.Empty; //comment6
+        }
+        /*
+         coment7
+         */
+    }
+}
